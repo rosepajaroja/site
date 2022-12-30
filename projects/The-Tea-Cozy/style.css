@@ -1,0 +1,133 @@
+/* ================================= 
+  Base Styles
+==================================== */
+body, a {
+    background-color: #000;
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.9;
+    min-height: 100vh;  
+}
+
+/* Header */
+.navigation {
+    display: flex;
+    flex-grow: .2;
+}
+
+li {
+    flex-grow: 1;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+/* FLEX */
+.header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End Header */
+
+/* Content Area */
+/* OUR MISSION */
+.row-1 {
+    background-image: url(img/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    height: 700px;
+    flex-direction: column;
+    justify-content: center;
+}
+.row-1-text {
+    background-color: #000;
+    align-items: center;
+}
+/* TEA OF THE MONTH */
+img {
+    height: 200px;
+    width: 300px;
+    flex-basis  : 33.33%;
+}
+.img-caption {
+    margin-top: 10px;
+}
+
+.row-2 {    
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gallery {
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* LOCATIONS */
+.row-3 {
+    background-image: url('img/img-locations-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.columns {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    background-color: #000;
+    margin: 20px;
+    width: 300px;
+    opacity: 1;
+    padding: 15px;
+}
+/* End Content Area */
+
+/* Footer Area */
+.footer {
+    margin-top: 50px;
+}
+.footer-credits {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: auto;
+}
+
+/* End Footer Area */
