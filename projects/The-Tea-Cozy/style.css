@@ -51,7 +51,7 @@ li {
 /* Content Area */
 /* OUR MISSION */
 .row-1 {
-    background-image: url(projects/The-Tea-Cozy/img/img-mission-background.jpg);
+    background-image: url(/projects/The-Tea-Cozy/img/img-mission-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,7 +93,7 @@ img {
 
 /* LOCATIONS */
 .row-3 {
-    background-image: url(projects/The-Tea-Cozy/img/img-locations-background.jpg);
+    background-image: url(/projects/The-Tea-Cozy/img/img-locations-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
