@@ -132,3 +132,21 @@ img {
 }
 
 /* End Footer Area */
+
+  /* ================================= 
+    Media Queries
+  ==================================== */
+
+  
+  @media (max-width: 769px) { 
+  
+    .header {
+        height: auto;
+        border-bottom: 1px solid seashell;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  
+  }
