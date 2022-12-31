@@ -26,10 +26,8 @@ body {
 
 li {
     flex-grow: 1;
-}
-
-li {
     list-style: none;
+    margin-right: 10px;
 }
 
 .logo {
